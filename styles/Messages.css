@@ -8,6 +8,8 @@
     background: var(--menu-background);
     border-top: 1px solid var(--menu-border-color);
     color: var(--menu-font-color);
+    border-radius: 12px;
+
 }
 
 .Message_p{
@@ -26,6 +28,8 @@
 
 .Message_btn{
     margin: 0;
+    margin-right: 4px;
+    margin-bottom: 2px;
     font-size: 7px;
     padding: 0;
     background: none;
