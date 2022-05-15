@@ -348,7 +348,9 @@ window.OverworldMaps = {
                 talking: [
                     {
                         events: [
-                            {type: "messages", text: "empty"}                        
+                            {type: "messages", text: "You found a Shmowder!"}                        
+                            {type: "messages", text: "But  your inventory is full."}                        
+
                         ],
 
                     }],
