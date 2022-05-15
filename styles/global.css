@@ -13,6 +13,8 @@
     box-sizing: border-box;
 }
 body{
+    background: rgb(48,34,37);
+    background: linear-gradient(90deg, rgba(48,34,37,1) 2%, rgba(12,11,12,1) 50%, rgba(48,34,37,1) 98%);
     font-family: 'Anonymous Pro', monospace;
     background-color: #423D50;
     padding: 0;
@@ -22,20 +24,23 @@ body{
 
 .game-container{
     position: relative;
-    width: 360px;
-    height: 224px;
+    width: 358px;
+    height: 222px;
     background-color: #ddd;
-    border: #aaa 1px solid;
+    /* border: #777 1px solid; */
     margin: 0 auto;
+    border-radius: 12px;
+
     transform:  scale(2.2) translateY(50%);
 }
 
 .game-container canvas {
+    border-radius: 10px;
     image-rendering: pixelated;
 }
 
 #credit{
     color:#ddd;
     font-size: 6px;
-    opacity: .5;
+    opacity: .4;
 }
